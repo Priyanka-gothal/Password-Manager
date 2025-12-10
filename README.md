@@ -30,6 +30,7 @@ Data persists even after page reload.
 Fully responsive and beautiful modern UI.
 
 🛠️ Tech Stack Technology	
+
 React.js	- UI Components, Hooks & State Management
 Tailwind CSS	- Styling & Responsiveness
 LocalStorage	- Temporary password storage
