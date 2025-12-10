@@ -1,16 +1,18 @@
-# React + Vite
+A simple Password Manager built using React.js and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project allows users to securely store and manage their account details used across different websites.  
+Users can:
+• Add username, website URL, and password  
+• Update saved entries  
+• Delete entries  
+• Copy details easily  
 
-Currently, two official plugins are available:
+All data is stored locally using LocalStorage, making the app fully functional without any backend.  
+(Currently using only LocalStorage, but MongoDB integration is planned for the next version.)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack:
+• React.js (Functional Components + Hooks)  
+• Tailwind CSS  
+• LocalStorage for CRUD operations
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project demonstrates my skills in component structure, state management, and clean, responsive UI design.
